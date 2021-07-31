@@ -37,9 +37,9 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://www.npmjs.com/package/@nuxtjs/google-analytics
-    '@nuxtjs/google-analytics', {
+    ['@nuxtjs/google-analytics', {
       id: 'UA-136405885-3'
-    }
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
