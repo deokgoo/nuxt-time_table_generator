@@ -18,15 +18,15 @@ jobs:
           paths:
             - .yarn/cache
             - .yarn/unplugged
-      - lint_check:
+      - run:
           name: Lint Test (js, style)
           command: yarn lint
-      - unit_test:
+      - run:
           name: Unit Test
           command: yarn test
 workflows:
   version: 2.1
-  build:
+  unit_test:
     jobs:
       - test
 
