@@ -1,26 +1,11 @@
 <template>
   <div id="header">
-    {{ title }}
-    <button @click="someTest">test</button>
+    Simple TimeTable Generator
   </div>
 </template>
 
 <script lang="ts">
 export default {
-  data () {
-    return {
-      title: 'Simple TimeTable Generator'
-    };
-  },
-  created () {
-
-  },
-  methods: {
-    someTest () {
-      localStorage.setItem('someti', 'asdf');
-      console.log(localStorage.getItem('someti'));
-    }
-  }
 };
 </script>
 
