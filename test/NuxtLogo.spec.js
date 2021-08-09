@@ -5,6 +5,6 @@ describe('NuxtLogo', () => {
   test('is a Vue instance', () => {
     // const wrapper = mount(NuxtLogo)
     // expect(wrapper.vm).toBeTruthy()
-    expect(1 + 1).toBe(2);
+    expect(1 + 2).toBe(3);
   });
 });
